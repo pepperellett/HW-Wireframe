@@ -5,11 +5,17 @@ body {
     width: 960px;
     font-size: 18px;
     line-height: 150%;
-    padding: 0;
-    border: 2px solid red;
     margin-left: 232.5px;
 }
-
+h1 {
+    color: #777;
+    background-color: #ebebeb;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 h2{
     color: #777;
     background-color: #ebebeb;
@@ -17,59 +23,50 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+    font-weight: normal;
     width: 100%;
 }
-
-h1 {
-        color: #777;
-        background-color: #ebebeb;
-        font-size: 18px;
-        margin: 4px;
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-
  .container{
-        float:left;
         background-color: #ebebeb;
         font-size: 18px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        margin-right: 0px;
         width: 50%;
-        margin-bottom: 10px solid #777;
-        margin-right: 10px solid #777;
+        float:left;
 
     }
 #article {
     background-color: #777;
     color: #ebebeb;
-    padding-top: 2px;
-    border: 6px solid #ebebeb;
+    margin: 10px;
+    width: 95%;
+    float: left;
 }
 #H1-3 {
     background-color: #ebebeb;
     color: #777;
-    border-right: 20px solid #777;
-    border-left: 20px solid #777;
+    align-content: center;
     padding-top: 2px;
+    border: 10px solid #777;
+    width: 95%;
+    float: left;
 }
 
 #p {
+    border-right: 10px solid #777;
     border-top: 10px solid #777;
-    border-bottom: 20px solid #777;
+    width: 100%;
+    float: left;
 }
-#aside {
+h3 {
     color: #777;
     background-color: #ebebeb;
     font-size: 18px;
-    clear: both;
-    width: 50%;
-    overflow: auto;
-    margin-left: 0;
+    font-weight: normal;
+    text-align: center;
+    width: 48.5%;
     height: 300px;
+    border-left: 12px solid #777;
+    float: left;
 }
 footer {
         clear: both;
