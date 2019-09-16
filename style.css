@@ -67,6 +67,7 @@ h3 {
     height: 300px;
     border-left: 12px solid #777;
     float: left;
+    margin: 0;
 }
 footer {
         clear: both;
